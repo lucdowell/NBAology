@@ -1,4 +1,4 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/ldowell2/public_html/
-    - /bin/cp tests.rtf $DEPLOYPATH
+    - export DEPLOYPATH=/home/ldowell2/public_html
+    - /bin/cp -r /home/ldowell2/repositories/NBAology/tests.rtf $DEPLOYPATH
